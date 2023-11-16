@@ -864,8 +864,8 @@ MonoBehaviour:
   obstacle: {fileID: 1510557115446249481, guid: 75e0f2c4ee512af40b59a4d2bdf58a8f, type: 3}
   maxX: 3.5
   minX: 3
-  maxY: 9
-  minY: -9
+  maxY: 4
+  minY: -4
   timeBetweenSpawn: 0.6
   spawnTime: 0
 --- !u!4 &1726269451
