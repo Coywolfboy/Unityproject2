@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7752800998130594083}
   - component: {fileID: 2628061903232706539}
-  - component: {fileID: 6356215270740518190}
   - component: {fileID: 8314807743281656315}
+  - component: {fileID: 6356215270740518190}
   m_Layer: 0
   m_Name: 'Obstacle '
   m_TagString: Untagged
@@ -67,21 +67,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.06, y: -0.07}
+  m_Offset: {x: 0.03, y: -0.07}
   serializedVersion: 2
-  m_Radius: 2.5
---- !u!114 &6356215270740518190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1510557115446249481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36e2627403e3a444da9209574b17206d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Radius: 2.4
 --- !u!50 &8314807743281656315
 Rigidbody2D:
   serializedVersion: 4
@@ -109,6 +97,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &6356215270740518190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510557115446249481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e2627403e3a444da9209574b17206d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2564045663525968137
 GameObject:
   m_ObjectHideFlags: 0
