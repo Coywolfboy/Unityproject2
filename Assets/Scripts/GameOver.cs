@@ -16,6 +16,7 @@ public class GameOver : MonoBehaviour
             gameOverPanel.SetActive(true);
             Time.timeScale = 0f;
         }
+
     }
     public void Reset()
     {
