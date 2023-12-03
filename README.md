@@ -2,6 +2,11 @@
 
 unity-project
 
-You can test the project on <a href="https://play.unity.com/mg/other/webgl-builds-380770" target="blank"><img align="center">
+*** You can test the project on https://play.unity.com/mg/other/webgl-builds-380770 ***
+
+
+```bash
+Thanks for using my project
+```
 
 Made By Coywolfboy
